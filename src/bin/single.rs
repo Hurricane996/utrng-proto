@@ -8,5 +8,4 @@ fn main() {
     let best_seed = RngState::find_good_seed(syncing_seed.into(), desired_seed);
 
     println!("{best_seed} syncs, add {} us", best_seed - desired_seed);
-    
 }
